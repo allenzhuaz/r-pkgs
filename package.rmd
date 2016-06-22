@@ -19,7 +19,7 @@ Before you can create your first package, you need to come up with a name for it
 
 ### Requirements for a name
 
-There are three formal requirements: the name can only consist of letters, numbers and periods, i.e., `.`; it must start with a letter; and it cannot end with a period. Unfortunately, this means you can't use either hyphens or underscores, i.e., `-` or `_`, in your package name. _**I recommend against using periods in package names because it has confusing connotations**_ (i.e., file extension or S3 method).
+There are three formal requirements: the name can only consist of letters, numbers and periods, i.e., `.`; it must start with a letter; and it cannot end with a period. Unfortunately, this means you can't use either hyphens or underscores, i.e., `-` or `_`, in your package name. __**I recommend against using periods in package names because it has confusing connotations**__ (i.e., file extension or S3 method).
 
 ### Strategies for creating a name
 
@@ -29,7 +29,7 @@ If you're planning on releasing your package, I think it's worth spending a few 
   find your package (and associated resources) and for you to see who's using it. 
   You can also check if a name is already used on CRAN by loading <http://cran.r-project.org/web/packages/[PACKAGE_NAME]>.
 
-* Avoid using both upper and lower case letters: doing so makes the package name
+* __**Avoid using both upper and lower case letters**__ : doing so makes the package name
   hard to type and even harder to remember. For example, I can never remember if it's
   Rgtk2 or RGTK2 or RGtk2.
 
@@ -151,7 +151,7 @@ oldbookdown::screenshot("screenshots/project-options-2.png", dpi = 220)
 
 ## What is a package? {#package}
 
-To make your first package, all you need to know is what you've learnt above. To master package development, particularly when you're distributing a package to others, it really helps to understand the five states a package can be in across its lifecycle: source, bundled, binary, installed and in-memory. Understanding the differences between these states will help you form a better mental model of what `install.packages()` and `devtools::install_github()` do, and will make it easier to debug problems when they arise.
+To make your first package, all you need to know is what you've learnt above. To master package development, particularly when you're distributing a package to others, it really helps to understand the five states a package can be in across its lifecycle: __*source, bundled, binary, installed and in-memory*__. Understanding the differences between these states will help you form a better mental model of what `install.packages()` and `devtools::install_github()` do, and will make it easier to debug problems when they arise.
 
 ### Source packages
 
