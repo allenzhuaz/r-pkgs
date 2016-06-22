@@ -19,7 +19,7 @@ Before you can create your first package, you need to come up with a name for it
 
 ### Requirements for a name
 
-There are three formal requirements: the name can only consist of letters, numbers and periods, i.e., `.`; it must start with a letter; and it cannot end with a period. Unfortunately, this means you can't use either hyphens or underscores, i.e., `-` or `_`, in your package name. I recommend against using periods in package names because it has confusing connotations (i.e., file extension or S3 method).
+There are three formal requirements: the name can only consist of letters, numbers and periods, i.e., `.`; it must start with a letter; and it cannot end with a period. Unfortunately, this means you can't use either hyphens or underscores, i.e., `-` or `_`, in your package name. _**I recommend against using periods in package names because it has confusing connotations**_ (i.e., file extension or S3 method).
 
 ### Strategies for creating a name
 
